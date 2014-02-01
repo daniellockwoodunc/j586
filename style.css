@@ -1,0 +1,567 @@
+/* This CSS will take priority over bootstrap.css files of any sort, ideally.*/
+
+.main-chunk{
+    margin-left: 105px;
+    margin-right: 125px;
+    height: 1000px;
+}
+
+.not-top-bar{
+    height: 110px;
+    background-color: #134670;
+}
+
+.top-bar {
+    background-color: #208ce2;
+    overflow: auto;
+    padding: 0;
+}
+
+.bottom-bar{
+    background-color: #f4f4f4;
+}
+
+.top-buttons {
+    color: white;
+    border: solid #1c7ecb;
+    border-width: 0 1px 0 0;
+    display: inline-block;
+    padding: 0.8em;
+    margin: 0.25em 0;
+}
+
+.navbar-image {
+    background-image: url("assets/big-menu.png"); /*-- This image is not loading.  I have no idea why. --*/
+    background-repeat: repeat;
+}
+
+.navbar-icons{
+    padding-top: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.main-icon {
+    width: 64px;
+    height: 80px;
+    background: center no-repeat;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.dashboard-box{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    background-color: #33cc66;
+    height: 75px;
+    border-radius: 4px;
+}
+
+.dashboard-box-contents{
+    padding-left: 27px;
+    padding-right: 14px;
+}
+
+.big-enclosing-box{
+    border-radius: 7px;
+    border: solid 1px #eeeeee;
+    padding: 14px;
+}
+
+.within-big-enclosing-box{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-color: #fcfcfc #efefef #efefef #efefef;
+}
+
+.big-white-round-box{ 
+    height: 190px;
+    width: 210px;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 1px 2px 1px #f2f2f2;
+}
+
+.inner-blue-box{
+    height: 50px;
+    background-color: #2394ee;
+    margin-top: 40px;
+}
+
+.did-you-know-box{
+    height: 140px;
+    background-color: #2394ee;
+    border-radius: 3px;
+}
+
+.bottom-blue-box{
+    background-color: #2394ee;
+}
+
+.rounded-bottom-box{
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 1px #196aaa;
+    height: 160px;
+    width: 280px;
+    background-color: #ffffff;
+}
+
+.green-inner-box{
+    width: 260px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #33cc66;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    
+}
+
+/* --- Top imagery.  Might as well be inactive, as the internets can't seem to grab these images off the server. --*/
+
+.dashboard{
+    background-image: url("assets/icon-dashboard.png");
+}
+
+.dashboard:hover,
+.dashboard:active{
+    background-image: url("assets/icon-dashboard-active.png");
+}
+
+.customers{
+    background-image: url("assets/icon-customers.png");
+}
+
+.customers:hover,
+.customers:active{
+    background-image: url("assets/icon-customers-active.png");
+}
+
+.messages{
+    background-image: url("assets/icon-messages.png");
+}
+
+.messages:hover,
+.messages:active{
+    background-image: url("assets/icon-messages-active.png");
+}
+
+.promotions{
+    background-image: url("assets/icon-promotions.png");
+}
+
+.promotions:hover,
+.promotions:active{
+    background-image: url("assets/icon-promotions-active.png");
+}
+
+.page-creator{
+    background-image: url("assets/icon-pagecreator.png");
+}
+
+.page-creator:hover,
+.page-creator:active{
+    background-image: url("asets/icon-pagecreator-active.png");
+}
+
+.analytics{
+    background-image: url("assets/icon-analytics.png");
+}
+
+.analytics:hover,
+.analytics:active {
+    background-image: url("assets/icon-analytics-active.png");
+}
+
+
+/* ---------------Styles of various sorts--------------- */
+
+
+.social-button{
+    height: 30px;
+    width: 60px;
+    border: solid 1px #dddddd;
+    border-radius: 2px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.list-padding{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.facebook-box{
+    height: 16px;
+    width: 75px;
+    border-radius: 3px;
+    background-color: #114570;
+}
+
+.twitter-box{
+    height: 16px;
+    width: 65px;
+    border-radius: 3px;
+    background-color: #2298f4;
+}
+
+.foursquare-box{
+    height: 16px;
+    width: 80px;
+    border-radius: 3px;
+    background-color: #3a599b;
+}
+
+.googleplus-box{
+    height: 16px;
+    width: 70px;
+    border-radius: 3px;
+    background-color: #31cc66;
+}
+
+.line-height-boxes{
+    line-height: 18px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.nega-margin-left{
+    margin-left: -15px;
+}
+
+.nega-margin-right{
+    margin-right: 15px;
+}
+
+
+/* ---------- padding stuff ---------*/
+
+
+
+.anti-padding{
+    padding: 0px !important;
+}
+
+.left-padding{
+    padding-left: 6px;
+}
+
+.left-padding-13{
+    padding-left: 13px;
+}
+
+.left-padding-50{
+    padding-left: 50px;
+}
+
+.right-padding{
+    padding-right: 7px;
+}
+
+.right-padding-2{
+    padding-right: 15px;
+}
+
+.right-padding-50{
+    padding-right: 50px;
+}
+
+.top-padding{
+    padding-top: 30px;
+}
+
+.top-padding-2{
+    padding-top: 15px;
+}
+
+.top-padding-3{
+    padding-top: 5px;
+}
+
+.top-padding-4{
+    padding-top: 25px;
+}
+
+.top-padding-5{
+    padding-top: 10px;
+}
+
+.top-padding-8{
+    padding-top: 8px;
+}
+
+.top-padding-37{
+    padding-top: 37px;
+}
+
+.top-padding-10{
+    padding-top: 10%;
+}
+
+.top-padding-25{
+    padding-top: 25%;
+}
+
+.fancy-padding{
+    padding: 0.8em;
+}
+
+.centertext{
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+.bottom-padding{
+    padding-bottom: 6px;
+}
+
+.bottom-padding-2{
+    padding-bottom: 4px;
+}
+
+.bottom-padding-5{
+    padding-bottom: 10px;
+}
+
+.bottom-padding-20{
+    padding-bottom: 20px;
+}
+
+no-padding{
+    padding: 0;
+}
+
+/*----------- not padding stuff ---------*/
+
+.top-margin{
+    margin-top: 2px;
+}
+
+.right-margin{
+    margin-right: 10px;
+}
+
+.bottom-margin{
+    margin-bottom: 3px;
+}
+
+.line-width{
+    width: inherit;
+}
+
+.line-width-100{
+    width: 100%;
+}
+
+.box-height-50{
+    height: 50px;
+}
+
+.box-height-60{
+    height: 60px;
+}
+
+.bordering{
+    border: solid 1px #efefef;
+}
+
+.left-bordering{
+    border-left: 1px solid #efefef;
+}
+
+.top-bordering{
+    border: 1px solid #efefef;
+}
+
+.tasks-border{
+    border-style: 1px solid #ffffff;
+    border-right-color: #efefef;
+}
+
+/* -------------------- Text adjustments --------------------*/
+
+.b5b5b5{
+    color: #b5b5b5;
+}
+
+ul#recommendations li h5{  /* --- Damn, just look at how fancy and advanced this is.  You know you love it. --- */
+    color: #777777;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Myriad Pro;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2, h3, h4, h5, h6{
+    color: #2498f4;
+    font-family: Myriad Pro;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.announcements{
+    color: #fe7f13;
+    font-family: Myriad Pro;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: Myriad Pro;
+}
+
+.checkbox-descriptions{
+    color: #ffffff;
+}
+
+div.did-you-know-box h5{
+    color: #ffffff;
+}
+
+/* --------- Text over images! ---------- */
+
+.image { 
+   position: relative; 
+}
+
+.absolute {
+    position: absolute;
+}
+
+.bottom-wat{
+    bottom: 0;
+}
+
+.nega-top{
+    top: 13px;
+}
+
+.lefty{
+    left: 80px;
+}
+
+.right-wat{
+    right: 0;
+}
+
+div.image h4{ 
+   position: absolute; 
+   top: 4px; 
+   left: 7px;
+   width: 24px;
+   color: #ffffff;
+}
+
+div#green-one h4{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    padding-top: 7px;
+}
+
+div#green-one h6{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+}
+
+div#orange-one h4{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    padding-top: 7px;
+}
+
+div#orange-one h6{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+}
+
+div.image img#button-back-dyk{
+    position: absolute;
+    top: 45px;
+}
+
+div.image img#button-next-dyk{
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+div#rounded-bottom-box-left h4{
+    color: #33cc66;
+    position: absolute;
+    width: 90%;
+    top: 55px;
+    right: 25px;
+    text-align: right;
+}
+
+div#rounded-bottom-box-left h5{
+    color: #666666;
+    position: absolute;
+    width: 85%;
+    top: 100px;
+    right: 20px;
+    text-align: right;
+}
+
+div.green-inner-box h5{
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+}
+
+div#rounded-bottom-box-right h4{
+    color: #fe7f13;
+    position: absolute;
+    width: 90%;
+    top: 62px;
+    right: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+/* --------- gradients of varying types --------*/
+
+.top-gradient{
+background: -webkit-linear-gradient(#efefef 5%, #ffffff 95%); /* For Safari */
+background: -o-linear-gradient(#efefef 5%, #ffffff 95%); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#efefef 5%, #ffffff 95%); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#efefef 5%, #ffffff 95%); /* Standard syntax (must be last) */
+}
